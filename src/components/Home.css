@@ -1,0 +1,58 @@
+.content-home {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+}
+
+.content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.image-gallery {
+    width: 600px;
+    font-weight: bold;
+}
+
+.home-bottom {
+    color: white;
+    margin-top: 100px;
+    /* height: 300px; */
+    background-color: darkgray;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.tab-text {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.tab-list {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-item {
+    width: 200px;
+}
+
+.home-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
