@@ -1,9 +1,8 @@
 import React from 'react';
 import { Container, Button, Carousel } from 'react-bootstrap';
 import './Home.css';
-import logo from "../images/logo.svg";
+import home1 from "../images/home1.jpeg";
 import home2 from "../images/home2.jpeg";
-import home1 from "../images/corte-madera-1.jpeg";
 import home3 from "../images/home3.jpeg";
 
 
@@ -25,7 +24,7 @@ const home = () => {
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <p>12670 Corte Madera Lane, Los Altos Hills</p>
+                    <p>Address Here</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -36,7 +35,7 @@ const home = () => {
                     />
 
                     <Carousel.Caption>
-                    <p>123 Happy Street, Palo Alto</p>
+                    <p>Address Here</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -68,7 +67,7 @@ const home = () => {
                <div className="tab-text">Construction Management</div>
                <div className="tab-list">
                 <ul>
-                    <li>Home Design</li>
+                    <li>Contractor support</li>
                     <li>Floorplan creation</li>
                 </ul>
                </div>
