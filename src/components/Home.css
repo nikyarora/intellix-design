@@ -14,7 +14,8 @@
 }
 
 .image-gallery {
-    width: 600px;
+    width: 650px;
+    margin-left: 30px;
     font-weight: bold;
 }
 
