@@ -1,0 +1,29 @@
+.content-contact {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    overflow: hidden;
+}
+
+.contact-header {
+    margin-top: 100px;
+}
+
+.form-contact {
+    max-width: 650px;
+}
+
+.contact-left {
+    max-width: 300px;
+}
+
+
+.contact-icon-title {
+    display: flex;
+    padding-top: 10px;
+}
+
+.text {
+    padding-left: 10px;
+}
