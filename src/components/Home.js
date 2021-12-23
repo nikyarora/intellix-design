@@ -12,7 +12,7 @@ const home = () => {
            <div className="content-home">
                <div>
                    <h2>Intellix Design</h2>
-                   <p>Building and renovating homes in the heart of Silicon Valley for over 10 years</p>
+                   <p>Building and renovating homes in the heart of Silicon Valley for over 15 years</p>
                    <Button href="/about" variant="outline-primary">About</Button>{' '}
                </div>
                <div className="image-gallery">
@@ -58,8 +58,10 @@ const home = () => {
                <div className="tab-text">Home Architecture</div>
                <div className="tab-list">
                 <ul>
+                    <li>Project Scoping</li>
+                    <li>Project Estimates</li>
                     <li>Home Design</li>
-                    <li>Floorplan creation</li>
+                    <li>Floorplan Creation</li>
                 </ul>
                </div>
                </div>
@@ -67,8 +69,10 @@ const home = () => {
                <div className="tab-text">Construction Management</div>
                <div className="tab-list">
                 <ul>
-                    <li>Contractor support</li>
-                    <li>Floorplan creation</li>
+                    <li>Contractor Support</li>
+                    <li>Exceptional Team Relationships</li>
+                    <li>Permit Process</li>
+                    <li>Construction Supervision</li>
                 </ul>
                </div>
                </div>
@@ -76,8 +80,9 @@ const home = () => {
                <div className="tab-text">Interior Design</div>
                <div className="tab-list">
                 <ul>
-                    <li>Home Design</li>
-                    <li>Floorplan creation</li>
+                    <li>Home Finishes</li>
+                    <li>Furnishing</li>
+                    <li>Tiling</li>
                 </ul>
                </div>
                </div>
