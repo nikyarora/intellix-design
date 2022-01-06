@@ -24,7 +24,7 @@ const home = () => {
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <p>Address Here</p>
+                    {/* <p>Address Here</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -35,7 +35,7 @@ const home = () => {
                     />
 
                     <Carousel.Caption>
-                    <p>Address Here</p>
+                    {/* <p>Address Here</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -46,7 +46,7 @@ const home = () => {
                     />
 
                     <Carousel.Caption>
-                    <p>Address Here</p>
+                    {/* <p>Address Here</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
