@@ -2,6 +2,7 @@ import React from 'react';
  
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import logo from "../images/logo.svg";
+import intellix from "../images/intellix.svg"
  
 const Navigation = () => {
     return (
@@ -10,8 +11,8 @@ const Navigation = () => {
         <Navbar.Brand href="/">
         <img
           alt=""
-          src={logo}
-          width="40"
+          src={intellix}
+          width="45"
           height="30"
           className="d-inline-block align-top"
         />{' '}
