@@ -1,7 +1,6 @@
 import React from 'react';
  
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import logo from "../images/logo.svg";
 import intellix from "../images/intellix.svg"
  
 const Navigation = () => {
