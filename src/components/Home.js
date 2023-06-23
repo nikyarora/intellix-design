@@ -1,9 +1,8 @@
 import React from 'react';
 import { Container, Button, Carousel } from 'react-bootstrap';
 import './Home.css';
-import home1 from "../images/home1.jpeg";
-import home2 from "../images/home2.jpeg";
-import home3 from "../images/home3.jpeg";
+
+import {CorteMadera_1, CorteMadera_5, CorteMadera_Landscape_1, CorteMadera_Landscape_2} from "../images"
 
 
 const home = () => {
@@ -20,34 +19,30 @@ const home = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={home1}
+                    src={CorteMadera_1}
                     alt="First slide"
                     />
-                    <Carousel.Caption>
-                    {/* <p>Address Here</p> */}
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={home2}
+                    src={CorteMadera_5}
                     alt="Second slide"
                     />
-
-                    <Carousel.Caption>
-                    {/* <p>Address Here</p> */}
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={home3}
+                    src={CorteMadera_Landscape_1}
                     alt="Third slide"
                     />
-
-                    <Carousel.Caption>
-                    {/* <p>Address Here</p> */}
-                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={CorteMadera_Landscape_2}
+                    alt="Third slide"
+                    />
                 </Carousel.Item>
                 </Carousel>
                 </div>
@@ -62,6 +57,8 @@ const home = () => {
                     <li>Project Estimates</li>
                     <li>Home Design</li>
                     <li>Floorplan Creation</li>
+                    <li>ADU Construction</li>
+                    <li>Remodels</li>
                 </ul>
                </div>
                </div>
@@ -80,9 +77,22 @@ const home = () => {
                <div className="tab-text">Interior Design</div>
                <div className="tab-list">
                 <ul>
+                    <li>Space Planning</li>
+                    <li>Color Planning</li>
                     <li>Home Finishes</li>
                     <li>Furnishing</li>
                     <li>Tiling</li>
+                </ul>
+               </div>
+               </div>
+               <div className="tab-item">
+               <div className="tab-text">Landscaping</div>
+               <div className="tab-list">
+                <ul>
+                    <li>Gardening</li>
+                    <li>Exterior Design</li>
+                    <li>Pools</li>
+                    <li>Sports Courts</li>
                 </ul>
                </div>
                </div>

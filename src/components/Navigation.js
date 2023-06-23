@@ -1,7 +1,7 @@
 import React from 'react';
  
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import intellix from "../images/intellix.svg"
+import intellix from "../images/assets/intellix.svg"
  
 const Navigation = () => {
     return (

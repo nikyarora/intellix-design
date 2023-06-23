@@ -3,11 +3,11 @@ import { Container, Form, Button } from 'react-bootstrap';
 import { BsTelephoneFill } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
 import './Contact.css';
-import home3 from "../images/home3.jpeg";
+import {CorteMadera_Landscape_1} from "../images";
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
-   emailjs.init('user_z9pGQ8TilHkpIf4r8lo4s');
+   emailjs.init('zUr6qeKUpytdzAgNI');
    const [name, setName] = React.useState('');
    const [email, setEmail] = React.useState('');
    const [phone, setPhone] = React.useState('');
@@ -22,7 +22,7 @@ const Contact = () => {
 
    const handleSubmit = (e) => {
       e.preventDefault(); // Prevents default refresh by the browser
-      if(name == '' || email == '' || message == '') {
+      if(name === '' || email === '' || message === '') {
          alert("Please fill out all the required fields");
       } else {
          emailjs.send(`service_intellix`, 'template_intellix', templateParams)
@@ -56,7 +56,7 @@ const Contact = () => {
                   <div><MdEmail /></div>
                   <p className="text">contactintellix@gmail.com</p>
                </div>
-               <img src={home3} width="500"/>{' '}
+               <img src={CorteMadera_Landscape_1} width="500"/>{' '}
            </div>
            <div className="form-contact">
                <h4>Send us a Message</h4>
