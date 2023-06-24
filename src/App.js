@@ -15,10 +15,10 @@ class App extends Component {
         <main>
           <Navigation />
             <Routes>
-             <Route path="/intellix-design" element={<Home/>} exact/>
-             <Route path="/intellix-design/about" element={<About/>}/>
-             <Route path="/intellix-design/contact" element={<Contact/>}/>
-             <Route path="/intellix-design/projects" element={<Projects/>}/>
+             <Route path="/" element={<Home/>} exact/>
+             <Route path="/about" element={<About/>}/>
+             <Route path="/contact" element={<Contact/>}/>
+             <Route path="/projects" element={<Projects/>}/>
             <Route component={Error}/>
            </Routes>
         </main> 
