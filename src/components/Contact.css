@@ -4,14 +4,29 @@
     justify-content: space-between;
     margin-right: 100px;
     overflow: hidden;
+
+    @media screen and (max-width: 720px) {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
 }
 
 .contact-header {
     margin-top: 100px;
+
+    @media screen and (max-width: 720px) {
+        margin-top: 30px;
+    }
 }
 
 .form-contact {
     max-width: 650px;
+
+    @media screen and (max-width: 720px) {
+        margin-top: 30px;
+    }
 }
 
 .contact-left {
